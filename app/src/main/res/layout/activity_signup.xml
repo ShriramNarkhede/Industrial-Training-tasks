@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/practice"
+    android:orientation="vertical">
+
+<!--   <ImageView-->
+<!--       android:layout_width="wrap_content"-->
+<!--       android:id="@+id/img_profile"-->
+<!--       android:layout_height="wrap_content"-->
+<!--       android:src="@drawable/profile"-->
+<!--       android:layout_gravity="center"-->
+<!--       android:layout_marginTop="15dp"-->
+<!--       >-->
+
+<!--   </ImageView>-->
+
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/fooda"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/prof"
+        tools:ignore="MissingClass" />
+
+    <TextView
+        android:id="@+id/tv_upload_img"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:background="#00F8F0F0"
+        android:gravity="center"
+        android:text="Upload Image"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:fontFamily="@font/almendra"
+        android:textStyle="bold" />
+    <View
+        android:id="@+id/view"
+        android:layout_width="110dp"
+        android:layout_height="2dp"
+        android:layout_gravity="center"
+        android:background="@color/white" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginBottom="30dp"
+            android:layout_marginRight="30dp"
+            android:outlineAmbientShadowColor="@color/black"
+            app:cardCornerRadius="40dp"
+            app:cardElevation="20dp">
+
+
+        <LinearLayout
+            android:layout_gravity="center"
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+
+            android:orientation="vertical"
+            android:elevation="14dp"
+
+            android:outlineSpotShadowColor="@color/black"
+            android:padding="20dp">
+
+
+            <EditText
+                android:id="@+id/et_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="23dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/backgroundwhite"
+                android:ems="10"
+                android:filterTouchesWhenObscured="false"
+                android:gravity="center|start"
+                android:hint="Name
+"
+                android:inputType="textPersonName"
+                android:minHeight="48dp"
+                android:paddingLeft="10dp"
+                android:textAlignment="viewStart"
+                android:textColor="#000000"
+                android:textColorHint="#ACABAB" />
+
+            <EditText
+                android:id="@+id/et_no"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/backgroundwhite"
+                android:ems="10"
+                android:gravity="center|start"
+                android:hint="+91 9921908795"
+                android:inputType="phone"
+                android:minHeight="48dp"
+                android:paddingLeft="10dp"
+                android:textAlignment="viewStart"
+                android:textColor="#000000"
+                android:textColorHint="#ACABAB" />
+
+            <EditText
+                android:id="@+id/et_mail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/backgroundwhite"
+                android:ems="10"
+                android:gravity="center|start"
+                android:hint="ABCD@gmail.com"
+                android:inputType="textEmailAddress"
+                android:minHeight="48dp"
+                android:paddingLeft="10dp"
+                android:textAlignment="viewStart"
+                android:textColor="#000000"
+                android:textColorHint="#ACABAB" />
+
+            <EditText
+                android:id="@+id/et_set_pass"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/backgroundwhite"
+                android:ems="10"
+                android:gravity="center|start"
+                android:hint="Set password"
+                android:inputType="textPassword"
+                android:minHeight="48dp"
+                android:paddingLeft="10dp"
+                android:textAlignment="viewStart"
+                android:textColor="#000000"
+                android:textColorHint="#ACABAB" />
+
+            <EditText
+                android:id="@+id/et_con_pass"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/backgroundwhite"
+                android:ems="10"
+                android:gravity="center|start"
+                android:hint="Confirm password"
+                android:inputType="textPassword"
+                android:minHeight="48dp"
+                android:paddingLeft="10dp"
+                android:textAlignment="viewStart"
+                android:textColor="#000000"
+                android:textColorHint="#ACABAB" />
+            <CheckBox
+                android:id="@+id/cb_show_pass"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="show password"
+                android:buttonTint="@color/black"/>
+            <Button
+                android:id="@+id/btn_register"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/blackbg"
+                android:text="register"
+                android:fontFamily="@font/alike"
+                android:textSize="20sp"
+                android:paddingRight="20dp"
+                android:paddingLeft="20dp"
+                android:textColor="@color/white"
+                android:layout_gravity="center"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                android:orientation="horizontal">
+
+                <View
+                    android:id="@+id/view2"
+                    android:layout_width="50dp"
+                    android:layout_height="2dp"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="1"
+                    android:background="@color/black" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="or with" />
+
+                <View
+                    android:id="@+id/view3"
+                    android:layout_width="50dp"
+                    android:layout_height="2dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="1"
+                    android:background="@color/black" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bluegreadent"
+                    android:drawableLeft="@drawable/facebook"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="Facebook"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/google"
+                    android:drawableLeft="@drawable/googlegreadent"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="Google"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_already"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/aref_ruqaa"
+                android:gravity="center"
+                android:text="Already have account? Login"
+                android:textColor="#090808"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </ScrollView>
+</LinearLayout>

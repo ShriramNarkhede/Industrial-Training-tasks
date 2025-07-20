@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"    >
+        <item android:title="Account"
+            app:showAsAction="always"
+        android:icon="@drawable/ic_baseline_account_circle_24"
+        android:id="@+id/Aco"
+            android:iconTint="@color/white"
+        />
+    <item android:title="MAP"
+        android:id="@+id/g_map"/>
+    <item android:title="Contact us"
+        android:icon="@drawable/heart"
+        android:id="@+id/Contact"
+        />
+    <item android:title="Text to speech"
+        android:id="@+id/Feed"
+        />
+    <item android:title="bluetooth"
+        android:id="@+id/bluetooth"
+        />
+    <item android:title="Settings"
+        android:id="@+id/About"
+        />
+    <item android:title="Log out"
+        android:id="@+id/logout"/>
+</menu>

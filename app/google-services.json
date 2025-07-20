@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "792729961385",
+    "project_id": "trainingtasks-f706d",
+    "storage_bucket": "trainingtasks-f706d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:792729961385:android:5b49481b96d15d0bfabab8",
+        "android_client_info": {
+          "package_name": "com.example.trainingtasks"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "792729961385-9kl6mgp8ibgrbjgvutgnhfl1jspdn5cm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJAXqwl3eQ14ktrOxZ4B7YoVYe0gU4L-o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "792729961385-9kl6mgp8ibgrbjgvutgnhfl1jspdn5cm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

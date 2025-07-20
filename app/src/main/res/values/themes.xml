@@ -1,0 +1,42 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.TrainingTasks" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">#FCFCFF</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <item name="titleTextColor">@color/white</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">#13151C</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="MyTheme" parent="@android:style/Theme.Holo.Light">
+        <item name="android:actionBarStyle">@style/MyActionBar</item>
+    </style>
+
+    <style name="MyActionBar" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:titleTextStyle">@style/TitleBarTextColor</item>
+        <item name="android:background">@color/black</item>
+    </style>
+
+    <style name="TitleBarTextColor" parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="MyCustomToolBarTheme" parent="ThemeOverlay.AppCompat.Light">
+
+    <item name="android:textColorPrimary">#000000</item>
+        <item name="android:textColorSecondary">#FFFFFF</item>
+
+</style>
+
+    <style name="contactus" parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="title">"Contact us"</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:statusBarColor" tools:targetApi="l">@color/purple_500</item>
+    </style>
+</resources>
